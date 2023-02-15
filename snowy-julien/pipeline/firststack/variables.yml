@@ -1,7 +1,7 @@
 env: firststack
 project: snowy-julien
 customer: accenture-lab
-git_ssh_key: ((ssh_step-by-step.ssh_key))
+git_ssh_key: ((julien_pubkey.ssh_key))
 code_git_public_repository: 'https://github.com/cycloid-community-catalog/docs-step-by-step-stack.git'
 code_git_branch: code
 git_repository: 'git@github.com:julienmary/firststack.git'
