@@ -1,19 +1,12 @@
 env: testjm
 project: snowy-julien
 customer: accenture-lab
-
 git_ssh_key: ((julien_pubkey.ssh_key))
-
-# Code repo configuration
-code_git_public_repository: https://github.com/cycloid-community-catalog/docs-step-by-step-stack.git
+code_git_public_repository: 'https://github.com/cycloid-community-catalog/docs-step-by-step-stack.git'
 code_git_branch: code
-
-# Branch used to store the config of the stack
-git_repository: git@github.com:julienmary/firststack.git
+git_repository: 'git@github.com:julienmary/firststack.git'
 config_git_branch: config
 stack_git_branch: stacks
-
-# Aws access to use inside the pipeline
 aws_access_key: ((aws_step-by-step.access_key))
 aws_secret_key: ((aws_step-by-step.secret_key))
 aws_default_region: eu-west-1
