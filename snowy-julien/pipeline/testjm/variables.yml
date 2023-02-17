@@ -12,3 +12,5 @@ aws_secret_key: ((aws_step-by-step.secret_key))
 aws_default_region: eu-west-1
 terraform_storage_bucket_name: firststackjma
 terraform_storage_bucket_path: snowy-julien
+api_key: ((jm_custom_cyclobot-api-key.key))
+api_url: 'https://http-api.cycloid.io'
